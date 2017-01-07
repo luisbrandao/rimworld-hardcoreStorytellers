@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StorytellerDefs>
+
+	<StorytellerDef>
+	<defName>Dallan</defName>
+	<label>Dallan Ilmuu Langrath</label>
+	<description>Dallan will try to destroy your colony in a steady pace. He will keep harrasing you until you break.</description>
+	<portraitLarge>UI/Storyteller/WaveOutlined</portraitLarge>
+	<portraitTiny>UI/Storyteller/WaveTiny</portraitTiny>
+	<listOrder>46</listOrder>
+	<desiredPopulationMin>8</desiredPopulationMin>
+	<desiredPopulationMax>16</desiredPopulationMax>
+	<desiredPopulationCritical>20</desiredPopulationCritical>
+	<comps>
+		<li Class="StorytellerCompProperties_RandomMain">
+			<minDaysPassed>1</minDaysPassed>
+			<incidentMtb>1</incidentMtb>
+			<maxThreatBigIntervalDays>1</maxThreatBigIntervalDays>
+			<categoryWeights>
+				<Misc>2</Misc>
+				<OrbitalVisitor>4</OrbitalVisitor>
+				<AllyArrival>2</AllyArrival>
+				<ShipChunkDrop>2</ShipChunkDrop>
+				<ThreatSmall>4</ThreatSmall>
+				<ThreatBig>5</ThreatBig>
+			</categoryWeights>
+      </li>
+		<li Class="StorytellerCompProperties_ThreatCycle">
+			<minDaysPassed>2</minDaysPassed>
+			<mtbDaysThreatSmall>2</mtbDaysThreatSmall>
+			<mtbDaysThreatBig>2</mtbDaysThreatBig>
+			<threatOffDays>2</threatOffDays>
+			<threatOnDays>2</threatOnDays>
+			<minDaysBetweenThreatBigs>2</minDaysBetweenThreatBigs>
+		</li>
+		<li Class="StorytellerCompProperties_CategoryMTB">
+			<minDaysPassed>0.1</minDaysPassed>
+			<category>Misc</category>
+			<mtbDays>1</mtbDays>
+		</li>
+		<li Class="StorytellerCompProperties_AllyInteraction">
+			<minDaysPassed>2.5</minDaysPassed>
+			<baseMtb>3</baseMtb>
+		</li>
+		<li Class="StorytellerCompProperties_Disease">
+			<minDaysPassed>5</minDaysPassed>
+		</li>
+		<li Class="StorytellerCompProperties_SingleMTB">
+			<incident>OrbitalTraderArrival</incident>
+			<mtbDays>2</mtbDays>
+		</li>
+		<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+			<category>CaravanTarget</category>
+		</li>
+		<li Class="StorytellerCompProperties_JourneyOffer"/>
+	</comps>
+	</StorytellerDef>
+
+	
+	<StorytellerDef>
+	<defName>Serena</defName>
+	<label>Serena</label>
+	<description>As a demon, she will try to do nothing but destroy you. Serena however is impatient: She may not even wait for you to finish dealing with a threat, to send another. </description>
+	<portraitLarge>UI/Storyteller/Rey</portraitLarge>
+	<portraitTiny>UI/Storyteller/ReyTiny</portraitTiny>
+	<listOrder>47</listOrder>
+	<comps>
+		<li Class="StorytellerCompProperties_RandomMain">
+			<minDaysPassed>1</minDaysPassed>
+			<incidentMtb>1</incidentMtb>
+			<maxThreatBigIntervalDays>1</maxThreatBigIntervalDays>
+			<categoryWeights>
+				<Misc>2</Misc>
+				<OrbitalVisitor>4</OrbitalVisitor>
+				<AllyArrival>2</AllyArrival>
+				<ShipChunkDrop>2</ShipChunkDrop>
+				<ThreatSmall>4</ThreatSmall>
+				<ThreatBig>5</ThreatBig>
+			</categoryWeights>
+      </li>
+		<li Class="StorytellerCompProperties_ThreatCycle">
+			<minDaysPassed>1</minDaysPassed>
+			<mtbDaysThreatSmall>0.5</mtbDaysThreatSmall>
+			<mtbDaysThreatBig>1</mtbDaysThreatBig>
+			<threatOffDays>1</threatOffDays>
+			<threatOnDays>1</threatOnDays>
+			<minDaysBetweenThreatBigs>1</minDaysBetweenThreatBigs>
+		</li>
+		<li Class="StorytellerCompProperties_CategoryMTB">
+			<minDaysPassed>0.1</minDaysPassed>
+			<category>Misc</category>
+			<mtbDays>1</mtbDays>
+		</li>
+		<li Class="StorytellerCompProperties_AllyInteraction">
+			<minDaysPassed>2.5</minDaysPassed>
+			<baseMtb>3</baseMtb>
+		</li>
+		<li Class="StorytellerCompProperties_Disease">
+			<minDaysPassed>5</minDaysPassed>
+		</li>
+		<li Class="StorytellerCompProperties_SingleMTB">
+			<incident>OrbitalTraderArrival</incident>
+			<mtbDays>2</mtbDays>
+		</li>
+		<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+			<category>CaravanTarget</category>
+		</li>
+		<li Class="StorytellerCompProperties_JourneyOffer"/>
+	</comps>
+	</StorytellerDef>
+  
+
+</StorytellerDefs>
