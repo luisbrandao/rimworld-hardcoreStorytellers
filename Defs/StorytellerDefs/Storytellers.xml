@@ -24,7 +24,7 @@
 			<li Class="StorytellerCompProperties_RandomMain">
 				<allowedTargetTypes>MapPlayerHome</allowedTargetTypes>
 				<minDaysPassed>1</minDaysPassed>
-				<incidentMtb>1</incidentMtb>
+				<mtbDays>1</mtbDays>
 				<maxThreatBigIntervalDays>2</maxThreatBigIntervalDays>
 				<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
 				<categoryWeights>
@@ -83,7 +83,7 @@
 			<li Class="StorytellerCompProperties_RandomMain">
 				<allowedTargetTypes>MapPlayerHome</allowedTargetTypes>
 				<minDaysPassed>0</minDaysPassed>
-				<incidentMtb>0.5</incidentMtb>
+				<mtbDays>0.5</mtbDays>
 				<maxThreatBigIntervalDays>1</maxThreatBigIntervalDays>
 				<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
 				<categoryWeights>
