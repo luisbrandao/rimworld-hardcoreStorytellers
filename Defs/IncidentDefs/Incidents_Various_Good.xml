@@ -3,8 +3,9 @@
   <!--=============== OrbitalVisitor =============-->
 
   <IncidentDef>
-    <defName>OrbitalTraderArrival</defName>
+    <defName>OrbitalTraderArrival2</defName>
     <label>orbital trader arrival</label>
+    <targetType>MapPlayerHome</targetType>
     <workerClass>IncidentWorker_OrbitalTraderArrival</workerClass>
     <category>OrbitalVisitor</category>
     <baseChance>10</baseChance>
