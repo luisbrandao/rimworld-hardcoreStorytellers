@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <StorytellerDefs>
-
-	<StorytellerDef>
+	<StorytellerDef ParentName="BaseStoryteller">
 		<defName>Dallan</defName>
 		<label>Dallan Ilmuu Langrath</label>
 		<description>Dallan will try to destroy your colony in a steady pace. He will keep harrasing you until you break.</description>
@@ -15,12 +14,10 @@
 				<li>7, 2</li>
 				<li>10, 1</li>
 				<li>14, 0.5</li>
-				<li>16, 0</li>
 				<li>20, -1</li>
 			</points>
 		</populationIntentFromPopCurve>
 		<comps>
-
 			<li Class="StorytellerCompProperties_RandomMain">
 				<allowedTargetTypes>MapPlayerHome</allowedTargetTypes>
 				<minDaysPassed>1</minDaysPassed>
@@ -48,10 +45,6 @@
 			<li Class="StorytellerCompProperties_Disease">
 				<minDaysPassed>5</minDaysPassed>
 			</li>
-			<li Class="StorytellerCompProperties_SingleMTB">
-				<incident>OrbitalTraderArrival2</incident>
-				<mtbDays>2</mtbDays>
-			</li>
 			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
 				<category>CaravanTarget</category>
 			</li>
@@ -74,7 +67,6 @@
 				<li>7, 2</li>
 				<li>10, 1</li>
 				<li>14, 0.5</li>
-				<li>16, 0</li>
 				<li>20, -1</li>
 			</points>
 		</populationIntentFromPopCurve>
@@ -106,10 +98,6 @@
 			</li>
 			<li Class="StorytellerCompProperties_Disease">
 				<minDaysPassed>5</minDaysPassed>
-			</li>
-			<li Class="StorytellerCompProperties_SingleMTB">
-				<incident>OrbitalTraderArrival2</incident>
-				<mtbDays>2</mtbDays>
 			</li>
 			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
 				<category>CaravanTarget</category>
