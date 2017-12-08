@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Hardcore Storytellers</name>
 	<author>Techmago</author>
-	<url></url>
-	<targetVersion>0.17.1527</targetVersion>
+	<url>https://github.com/luisbrandao/rimworld-hardcoreStorytellers</url>
+	<targetVersion>0.18.1527</targetVersion>
 	<description>Small mod that adds two new storytellers to the game.</description>
 </ModMetaData>
