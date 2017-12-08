@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DifficultyDef>
+    <defName>Reallyhard</defName>
+    <label>Really hard</label>
+    <description>Hardcore Storytellers extra difficulty. \n\nEven more enemies, low prices, lack of food and aggressive diseases\nEnjoy!</description>
+    <difficulty>7</difficulty>
+    <threatScale>1.5</threatScale>
+    <colonistMoodOffset>-10</colonistMoodOffset>
+    <tradePriceFactorLoss>0.25</tradePriceFactorLoss>
+    <cropYieldFactor>0.85</cropYieldFactor>
+    <diseaseIntervalFactor>0.8</diseaseIntervalFactor>
+    <enemyReproductionRateFactor>1.5</enemyReproductionRateFactor>
+    <playerPawnInfectionChanceFactor>1.2</playerPawnInfectionChanceFactor>
+    <manhunterChanceOnDamageFactor>1.2</manhunterChanceOnDamageFactor>
+  </DifficultyDef>
+  <DifficultyDef>
+    <defName>Insane</defName>
+    <label>Insane</label>
+    <description>Hardcore Storytellers extra difficulty. \n\nToo many enemies, even lower prices, poor crops and deadly diseases. Everything hates you!\nEnjoy! (not)</description>
+    <difficulty>9</difficulty>
+    <threatScale>2.0</threatScale>
+    <colonistMoodOffset>-12</colonistMoodOffset>
+    <tradePriceFactorLoss>0.30</tradePriceFactorLoss>
+    <cropYieldFactor>0.80</cropYieldFactor>
+    <diseaseIntervalFactor>0.7</diseaseIntervalFactor>
+    <enemyReproductionRateFactor>2</enemyReproductionRateFactor>
+    <playerPawnInfectionChanceFactor>1.4</playerPawnInfectionChanceFactor>
+    <manhunterChanceOnDamageFactor>1.4</manhunterChanceOnDamageFactor>
+  </DifficultyDef>
+</Defs>
