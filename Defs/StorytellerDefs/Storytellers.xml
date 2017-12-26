@@ -352,13 +352,12 @@
 	    </points>
 	  </populationIntentFromPopCurve>
 		<comps>
-
 			<li Class="StorytellerCompProperties_RandomMain">
 				<allowedTargetTypes>
 	        <li>MapPlayerHome</li>
 	      </allowedTargetTypes>
 				<minDaysPassed>0.5</minDaysPassed>
-        <mtbDays>1.0</mtbDays>
+        <mtbDays>0.5</mtbDays>
         <maxThreatBigIntervalDays>2</maxThreatBigIntervalDays>
 				<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
 				<categoryWeights>
@@ -367,7 +366,7 @@
 					<ShipChunkDrop>2</ShipChunkDrop>
 					<AllyArrival>2</AllyArrival>
 					<AllyAssistance>0.5</AllyAssistance>
-					<ThreatSmall>1</ThreatSmall>
+					<ThreatSmall>3</ThreatSmall>
 					<ThreatBig>9</ThreatBig>
 				</categoryWeights>
 			</li>
