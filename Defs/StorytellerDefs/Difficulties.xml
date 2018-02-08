@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <DifficultyDef>
     <defName>Reallyhard</defName>
@@ -27,5 +27,19 @@
     <enemyReproductionRateFactor>2</enemyReproductionRateFactor>
     <playerPawnInfectionChanceFactor>1.4</playerPawnInfectionChanceFactor>
     <manhunterChanceOnDamageFactor>1.4</manhunterChanceOnDamageFactor>
+  </DifficultyDef>
+  <DifficultyDef>
+    <defName>Harder</defName>
+    <label>Harder</label>
+    <description>Hardcore Storytellers extra difficulty. \n\nHarder hard. But with weird numbers...</description>
+    <difficulty>10</difficulty>
+    <threatScale>2.0</threatScale>
+    <colonistMoodOffset>-8</colonistMoodOffset>
+    <tradePriceFactorLoss>0.20</tradePriceFactorLoss>
+    <cropYieldFactor>0.80</cropYieldFactor>
+    <diseaseIntervalFactor>0.9</diseaseIntervalFactor>
+    <enemyReproductionRateFactor>2</enemyReproductionRateFactor>
+    <playerPawnInfectionChanceFactor>1.1</playerPawnInfectionChanceFactor>
+    <manhunterChanceOnDamageFactor>1.1</manhunterChanceOnDamageFactor>
   </DifficultyDef>
 </Defs>
