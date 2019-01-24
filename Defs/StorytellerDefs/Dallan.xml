@@ -4,8 +4,8 @@
     <defName>Dallan</defName>
     <label>Dallan Ilmuu Langrath onlyRand</label>
     <description>Dallan is a pretty active storyteller. He will give you little time to recover from raids and will keep things happening.</description>
-    <portraitLarge>UI/Storyteller/WaveOutlined</portraitLarge>
-    <portraitTiny>UI/Storyteller/WaveTiny</portraitTiny>
+    <portraitLarge>UI/Storyteller/DallanOutlined</portraitLarge>
+    <portraitTiny>UI/Storyteller/DallanTiny</portraitTiny>
     <listOrder>47</listOrder>
 		<populationIntentFromPopCurve>
 			<points>
@@ -182,141 +182,6 @@
       <li Class="StorytellerCompProperties_Triggered">
         <incident>StrangerInBlackJoin</incident>
         <delayTicks>180</delayTicks>
-      </li>
-    </comps>
-  </StorytellerDef>
-  <StorytellerDef ParentName="BaseStoryteller"> <!-- Serena -->
-    <defName>Serena</defName>
-    <label>Serena</label>
-    <description>Serena is an impatient force who want you dead. Her aim is to overrun and destroy you, so don't expect much help or any time to recover at all. Serena wont be fair, be advised.</description>
-    <portraitLarge>UI/Storyteller/Rey</portraitLarge>
-    <portraitTiny>UI/Storyteller/ReyTiny</portraitTiny>
-    <listOrder>50</listOrder>
-    <populationIntentFromTimeCurve>
-      <points>
-        <li>0, 0.15</li>
-        <li>5, 0.15</li>
-        <li>12, 1</li>
-      </points>
-    </populationIntentFromTimeCurve>
-    <populationIntentFromPopCurve>
-			<points>
-        <li>0,  12.0</li>
-        <li>1,  8.0</li>
-        <li>9,  2.0</li>
-        <li>15, 1.0</li>
-        <li>20, 0.5</li>
-        <li>30,-1.5</li>
-      </points>
-    </populationIntentFromPopCurve>
-    <comps>
-      <li Class="StorytellerCompProperties_RandomMain">
-        <allowedTargetTypes>
-          <li>MapPlayerHome</li>
-        </allowedTargetTypes>
-        <minDaysPassed>0.2</minDaysPassed>
-        <mtbDays>0.5</mtbDays>
-        <maxThreatBigIntervalDays>2</maxThreatBigIntervalDays>
-        <minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
-        <categoryWeights>
-          <Misc>3</Misc>
-          <OrbitalVisitor>4,5</OrbitalVisitor>
-          <ShipChunkDrop>2</ShipChunkDrop>
-          <AllyArrival>2</AllyArrival>
-          <AllyAssistance>0.5</AllyAssistance>
-          <ThreatSmall>3</ThreatSmall>
-          <ThreatBig>9</ThreatBig>
-        </categoryWeights>
-      </li>
-			<li Class="StorytellerCompProperties_OnOffCycle">
-        <category>ThreatBig</category>
-        <minDaysPassed>11.0</minDaysPassed>
-        <onDays>1.5</onDays>
-        <offDays>1.5</offDays>
-        <minSpacingDays>0.5</minSpacingDays>
-        <numIncidentsRange>0.5~4</numIncidentsRange>
-        <forceRaidEnemyBeforeDaysPassed>8</forceRaidEnemyBeforeDaysPassed>
-        <disallowedTargetTags>
-          <li>Map_RaidBeacon</li>
-        </disallowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_OnOffCycle">
-        <category>RaidBeacon</category>
-        <allowedTargetTags>
-          <li>Map_RaidBeacon</li>
-        </allowedTargetTags>
-        <onDays>0.5</onDays>
-        <offDays>0.5</offDays>
-        <minSpacingDays>0.05</minSpacingDays>
-        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
-        <numIncidentsRange>0.5~3</numIncidentsRange>
-      </li>
-      <li Class="StorytellerCompProperties_CategoryMTB">
-        <allowedTargetTypes>
-          <li>MapPlayerHome</li>
-        </allowedTargetTypes>
-        <minDaysPassed>5</minDaysPassed>
-        <category>Misc</category>
-        <mtbDays>3.0</mtbDays>
-      </li>
-      <li Class="StorytellerCompProperties_CategoryMTB">
-        <allowedTargetTypes>
-          <li>World</li>
-        </allowedTargetTypes>
-        <minDaysPassed>15</minDaysPassed>
-        <category>Misc</category>
-        <mtbDays>8</mtbDays>
-      </li>
-      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
-        <allowedTargetTypes>
-          <li>Caravan</li>
-          <li>MapTempIncident</li>
-        </allowedTargetTypes>
-        <category>Misc</category>
-      </li>
-      <li Class="StorytellerCompProperties_AllyInteraction">
-        <minDaysPassed>5</minDaysPassed>
-        <baseMtb>6</baseMtb>
-        <allowedTargetTypes>
-          <li>MapPlayerHome</li>
-        </allowedTargetTypes>
-      </li>
-      <li Class="StorytellerCompProperties_AllyAssistance">
-        <baseMtb>10</baseMtb>
-      </li>
-      <li Class="StorytellerCompProperties_SingleMTB">
-        <incident>OrbitalTraderArrival</incident>
-        <mtbDays>20</mtbDays>
-        <minDaysPassed>10</minDaysPassed>
-      </li>
-      <li Class="StorytellerCompProperties_ShipChunkDrop">
-        <baseMtb>10</baseMtb>
-      </li>
-      <li Class="StorytellerCompProperties_Disease">
-        <minDaysPassed>7</minDaysPassed>
-      </li>
-      <li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
-        <category>ThreatSmall</category>
-        <allowedTargetTypes>
-          <li>Caravan</li>
-          <li>MapTempIncident</li>
-        </allowedTargetTypes>
-        <applyCaravanStealthFactor>true</applyCaravanStealthFactor>
-      </li>
-      <li Class="StorytellerCompProperties_JourneyOffer"/>
-      <li Class="StorytellerCompProperties_ThreatCycle">
-        <allowedTargetTypes>
-          <li>MapRaidBeacon</li>
-        </allowedTargetTypes>
-        <threatOffDays>0.8</threatOffDays>
-        <threatOnDays>0.6</threatOnDays>
-        <minDaysBetweenThreatBigs>0.05</minDaysBetweenThreatBigs>
-        <minDaysBeforeNonRaidThreatBig>0</minDaysBeforeNonRaidThreatBig>
-        <mtbDaysThreatSmall>1000000</mtbDaysThreatSmall>
-        <!-- effectively disabled -->
-        <mtbDaysThreatBig>0.3</mtbDaysThreatBig>
-        <threatSmallCategory>RaidBeacon</threatSmallCategory>
-        <threatBigCategory>RaidBeacon</threatBigCategory>
       </li>
     </comps>
   </StorytellerDef>
