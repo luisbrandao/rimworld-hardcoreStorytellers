@@ -4,8 +4,8 @@
     <defName>Dallan</defName>
     <label>Dallan Ilmuu Langrath onlyRand</label>
     <description>Dallan is a pretty active storyteller. He will give you little time to recover from raids and will keep things happening.</description>
-    <portraitLarge>UI/Storyteller/WaveOutlined</portraitLarge>
-    <portraitTiny>UI/Storyteller/WaveTiny</portraitTiny>
+    <portraitLarge>UI/Storyteller/DallanOutlined</portraitLarge>
+    <portraitTiny>UI/Storyteller/DallanTiny</portraitTiny>
     <listOrder>47</listOrder>
 		<populationIntentFactorFromPopCurve>
 			<points>

@@ -26,3 +26,27 @@ https://github.com/skyarkhangel/Hardcore-SK/tree/master/Mods/Core_SK/Textures/Th
 
 If anyone wants to contribute with original art, will be greatly appreciated.
 Feedback is also apreciated.
+
+
+Check out my other mods!
+
+More Medications - Reborn
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1601812699
+
+Hardcore Storytellers
+- https://steamcommunity.com/sharedfiles/filedetails/?id=831774478
+
+Simple Loom
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1489517427
+
+Boots and Stuff
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1488970545
+
+Minigun2
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1588721300
+
+Chitin
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1488933307
+
+Shale - from oil to plastic
+- https://steamcommunity.com/sharedfiles/filedetails/?id=1248055193
