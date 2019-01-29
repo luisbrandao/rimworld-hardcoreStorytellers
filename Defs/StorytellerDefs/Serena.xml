@@ -3,7 +3,7 @@
   <StorytellerDef ParentName="BaseStoryteller"> <!-- Serena -->
     <defName>Serena</defName>
     <label>Serena</label>
-    <description>Serena is an impatient force who want you dead. Her aim is to overrun and destroy you, so don't expect much help or any time to recover at all. Serena wont be fair, be advised.</description>
+    <description>Serena is an impatient force who want you dead. Her aim is to overrun and destroy you, and she will often come in full force so don't expect much help or any time to recover at all. Serena wont be fair, be advised.</description>
     <portraitLarge>UI/Storyteller/Serena</portraitLarge>
     <portraitTiny>UI/Storyteller/SerenaTiny</portraitTiny>
     <listOrder>50</listOrder>
@@ -23,7 +23,7 @@
       <!-- Home threats -->
       <li Class="StorytellerCompProperties_OnOffCycle"> <!-- Home: ThreatBig -->
         <category>ThreatBig</category>
-        <minDaysPassed>6.0</minDaysPassed>
+        <minDaysPassed>15.0</minDaysPassed> <!-- Numero de dias antes do primeiro ataque -->
         <onDays>2.0</onDays>
         <offDays>2.0</offDays>
         <minSpacingDays>0.04</minSpacingDays>
@@ -32,17 +32,6 @@
         <disallowedTargetTags>
           <li>Map_RaidBeacon</li>
         </disallowedTargetTags>
-      </li>
-      <li Class="StorytellerCompProperties_OnOffCycle"> <!-- Home: RaidBeacon -->
-        <category>RaidBeacon</category>
-        <allowedTargetTags>
-          <li>Map_RaidBeacon</li>
-        </allowedTargetTags>
-        <onDays>1.0</onDays>
-        <offDays>0.5</offDays>
-        <minSpacingDays>0.04</minSpacingDays>
-        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
-        <numIncidentsRange>1~6</numIncidentsRange>
       </li>
       <li Class="StorytellerCompProperties_OnOffCycle"> <!-- Home: ThreatSmall -->
         <category>ThreatSmall</category>
@@ -56,6 +45,17 @@
             <li>(2800, 0)</li>
           </points>
         </acceptPercentFactorPerThreatPointsCurve>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle"> <!-- Home: RaidBeacon -->
+        <category>RaidBeacon</category>
+        <allowedTargetTags>
+          <li>Map_RaidBeacon</li>
+        </allowedTargetTags>
+        <onDays>1.0</onDays>
+        <offDays>0.5</offDays>
+        <minSpacingDays>0.04</minSpacingDays>
+        <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
+        <numIncidentsRange>1~6</numIncidentsRange>
       </li>
       <!-- Home misc -->
       <li Class="StorytellerCompProperties_CategoryMTB"> <!-- Home-misc: Misc -->

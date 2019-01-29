@@ -3,7 +3,7 @@
   <StorytellerDef ParentName="BaseStoryteller"> <!-- Dallan -->
     <defName>Dallan</defName>
     <label>Dallan Ilmuu Langrath</label>
-    <description>Dallan is a pretty active storyteller. He will give you little time to recover from raids and will keep things happening.</description>
+    <description>Dallan will try keep you in the edge by keeping some small incident happening.</description>
     <portraitLarge>UI/Storyteller/DallanOutlined</portraitLarge>
     <portraitTiny>UI/Storyteller/DallanTiny</portraitTiny>
     <listOrder>47</listOrder>
@@ -23,15 +23,30 @@
       <!-- Home threats -->
       <li Class="StorytellerCompProperties_OnOffCycle"> <!-- Home: ThreatBig -->
         <category>ThreatBig</category>
-        <minDaysPassed>13.0</minDaysPassed>
+        <minDaysPassed>15.0</minDaysPassed> <!-- Numero de dias antes do primeiro ataque -->
         <onDays>8.0</onDays>
         <offDays>8.0</offDays>
-        <minSpacingDays>1.9</minSpacingDays>
-        <numIncidentsRange>1~1</numIncidentsRange>
-        <forceRaidEnemyBeforeDaysPassed>20</forceRaidEnemyBeforeDaysPassed>
+        <minSpacingDays>2.0</minSpacingDays>
+        <numIncidentsRange>1~2</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>15</forceRaidEnemyBeforeDaysPassed>
         <disallowedTargetTags>
           <li>Map_RaidBeacon</li>
         </disallowedTargetTags>
+      </li>
+      <li Class="StorytellerCompProperties_OnOffCycle"> <!-- Home: ThreatSmall -->
+        <category>ThreatSmall</category>
+        <minDaysPassed>6.0</minDaysPassed>
+        <onDays>4.0</onDays>
+        <offDays>1.0</offDays>
+        <minSpacingDays>0.01</minSpacingDays>
+        <numIncidentsRange>1~8</numIncidentsRange>
+        <forceRaidEnemyBeforeDaysPassed>1</forceRaidEnemyBeforeDaysPassed>
+        <acceptPercentFactorPerThreatPointsCurve>
+          <points>
+            <li>(800, 1)</li>
+            <li>(2800, 0)</li>
+          </points>
+        </acceptPercentFactorPerThreatPointsCurve>
       </li>
       <li Class="StorytellerCompProperties_OnOffCycle"> <!-- Home: RaidBeacon -->
         <category>RaidBeacon</category>
@@ -43,20 +58,6 @@
         <minSpacingDays>0.04</minSpacingDays>
         <applyRaidBeaconThreatMtbFactor>true</applyRaidBeaconThreatMtbFactor>
         <numIncidentsRange>1~4</numIncidentsRange>
-      </li>
-      <li Class="StorytellerCompProperties_OnOffCycle"> <!-- Home: ThreatSmall -->
-        <category>ThreatSmall</category>
-        <minDaysPassed>6.0</minDaysPassed>
-        <onDays>1.0</onDays>
-        <offDays>1.0</offDays>
-        <numIncidentsRange>1~8</numIncidentsRange>
-        <forceRaidEnemyBeforeDaysPassed>6</forceRaidEnemyBeforeDaysPassed>
-        <acceptPercentFactorPerThreatPointsCurve>
-          <points>
-            <li>(800, 1)</li>
-            <li>(2800, 0)</li>
-          </points>
-        </acceptPercentFactorPerThreatPointsCurve>
       </li>
       <!-- Home misc -->
       <li Class="StorytellerCompProperties_CategoryMTB"> <!-- Home-misc: Misc -->
