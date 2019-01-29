@@ -155,16 +155,21 @@
         <category>Misc</category>
         <allowedTargetTags>
           <li>World</li>
-        </allowedTargetTags>
+        </      <li Class="StorytellerCompProperties_OnOffCycle"> <!-- World-misc: OrbitalTraderArrival -->
+        <incident>OrbitalTraderArrival</incident>
+        <onDays>3</onDays>
+        <offDays>4</offDays>
+        <numIncidentsRange>1~2</numIncidentsRange>
+      </li>allowedTargetTags>
         <minDaysPassed>15</minDaysPassed>
         <mtbDays>15</mtbDays>
       </li>
       <!-- Orbital -->
       <li Class="StorytellerCompProperties_OnOffCycle"> <!-- World-misc: OrbitalTraderArrival -->
         <incident>OrbitalTraderArrival</incident>
-        <onDays>3</onDays>
-        <offDays>4</offDays>
-        <numIncidentsRange>1~2</numIncidentsRange>
+        <onDays>5</onDays>
+        <offDays>2</offDays>
+        <numIncidentsRange>2~4</numIncidentsRange>
       </li>
       <!-- Triggered -->
       <li Class="StorytellerCompProperties_Triggered"> <!-- World-misc: StrangerInBlackJoin -->
