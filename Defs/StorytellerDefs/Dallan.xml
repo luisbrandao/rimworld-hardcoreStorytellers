@@ -39,7 +39,7 @@
         <onDays>4.0</onDays>
         <offDays>1.0</offDays>
         <minSpacingDays>0.01</minSpacingDays>
-        <numIncidentsRange>1~8</numIncidentsRange>
+        <numIncidentsRange>4~8</numIncidentsRange>
         <forceRaidEnemyBeforeDaysPassed>1</forceRaidEnemyBeforeDaysPassed>
         <acceptPercentFactorPerThreatPointsCurve>
           <points>
