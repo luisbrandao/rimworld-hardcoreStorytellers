@@ -155,12 +155,7 @@
         <category>Misc</category>
         <allowedTargetTags>
           <li>World</li>
-        </      <li Class="StorytellerCompProperties_OnOffCycle"> <!-- World-misc: OrbitalTraderArrival -->
-        <incident>OrbitalTraderArrival</incident>
-        <onDays>3</onDays>
-        <offDays>4</offDays>
-        <numIncidentsRange>1~2</numIncidentsRange>
-      </li>allowedTargetTags>
+        </allowedTargetTags>
         <minDaysPassed>15</minDaysPassed>
         <mtbDays>15</mtbDays>
       </li>
