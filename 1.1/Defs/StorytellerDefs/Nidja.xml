@@ -1,11 +1,11 @@
 <Defs>
   <StorytellerDef ParentName="BaseStoryteller">
-    <defName>Serena</defName>
-    <label>Serena</label>
-    <description>Serena is an impatient force who want you dead. Her aim is to overrun and destroy you, and she will often come in full force so don't expect much help or any time to recover at all. Serena wont be fair, be advised.</description>
-    <portraitLarge>UI/Storyteller/Serena</portraitLarge>
-    <portraitTiny>UI/Storyteller/SerenaTiny</portraitTiny>
-    <listOrder>50</listOrder>
+    <defName>Nidja</defName>
+    <label>Nidja Blackfield</label>
+    <description>Nidja will send pockets of raids, and then give you a little time to recover.</description>
+    <portraitLarge>UI/Storyteller/Nidja</portraitLarge>
+    <portraitTiny>UI/Storyteller/NidjaTiny</portraitTiny>
+    <listOrder>51</listOrder>
     <populationIntentFactorFromPopCurve>
       <points>
         <li>0,  12.0</li>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Hardcore Storytellers</name>
+  <packageId>Techmago.HardcoreStorytellers</packageId>
 	<author>Techmago</author>
 	<url>https://github.com/luisbrandao/rimworld-hardcoreStorytellers</url>
 	<supportedVersions>

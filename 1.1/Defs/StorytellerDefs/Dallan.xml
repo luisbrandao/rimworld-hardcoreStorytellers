@@ -1,11 +1,11 @@
 <Defs>
   <StorytellerDef ParentName="BaseStoryteller">
-    <defName>Serena</defName>
-    <label>Serena</label>
-    <description>Serena is an impatient force who want you dead. Her aim is to overrun and destroy you, and she will often come in full force so don't expect much help or any time to recover at all. Serena wont be fair, be advised.</description>
-    <portraitLarge>UI/Storyteller/Serena</portraitLarge>
-    <portraitTiny>UI/Storyteller/SerenaTiny</portraitTiny>
-    <listOrder>50</listOrder>
+    <defName>Dallan</defName>
+    <label>Dallan Ilmuu Langrath</label>
+    <description>Dallan will try keep you in the edge by keeping some small incident happening.</description>
+    <portraitLarge>UI/Storyteller/DallanOutlined</portraitLarge>
+    <portraitTiny>UI/Storyteller/DallanTiny</portraitTiny>
+    <listOrder>47</listOrder>
     <populationIntentFactorFromPopCurve>
       <points>
         <li>0,  12.0</li>
